@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Luke's Auto Rice Boostrapping Script (LARBS)
-# by Luke Smith <luke@lukesmith.xyz>
-# License: GNU GPLv3
+# LARBS by Luke Smith <luke@lukesmith.xyz> License: GNU GPLv3
+# Lordie's Version
 
 # You can provide a custom repository with -r or a custom programs csv with -p.
 # Otherwise, the script will use my defaults.
