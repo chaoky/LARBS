@@ -22,7 +22,7 @@ esac done
 
 # DEFAULTS:
 [ -z ${dotfilesrepo+x} ] && dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
-[ -z ${progsfile+x} ] && progsfile="https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/progs.csv"
+[ -z ${progsfile+x} ] && progsfile="https://raw.githubusercontent.com/chaoky/LARBS/master/progs.csv"
 [ -z ${aurhelper+x} ] && aurhelper="yay"
 
 ###
@@ -192,9 +192,6 @@ installationloop
 
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name"
-
-# Install the LARBS Firefox profile in ~/.mozilla/firefox/
-putgitrepo "https://github.com/LukeSmithxyz/mozillarbs.git" "/home/$name/.mozilla/firefox"
 
 # Pulseaudio, if/when initially installed, often needs a restart to work immediately.
 [[ -f /usr/bin/pulseaudio ]] && resetpulse
