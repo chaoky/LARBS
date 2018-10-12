@@ -36,7 +36,7 @@ preinstallmsg() { \
 	}
 
 welcomemsg() { \
-	dialog --title "Welcome!" --msgbox "Welcome to Luke's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured i3wm Arch Linux desktop, which I use as my main machine.\\n\\n-Luke" 10 60
+	dialog --title "Welcome!" --msgbox "Lordie's LARB!\\n\\nThis script will automatically install lordie's configuration." 10 60
 	}
 
 refreshkeys() { \
